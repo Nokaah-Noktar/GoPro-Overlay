@@ -27,7 +27,7 @@ Extract telemetry data using ["Telemetry Extractor for GoPro (Lite)"](https://go
 * Base Time: MP4
 * Export as CVS
 
-# Usage (Program)
+# Usage (Program):
 After exporting the program processing 4 will create a folder containting an executable file. Follow the steps displayed on the scree:
 * Import data downloaded from "Telemetry Extaxtor".
 * Select output folder where the gauages will be stored
@@ -37,5 +37,16 @@ After exporting the program processing 4 will create a folder containting an exe
 
 The program will first create images of each frame for each gauage. When finnished it will call ffmpeg wich exports the images into a .mov-file.
 
-# Usage (Gauages)
+# Usage (Gauages):
 Each gauage consists of a .mov file. The file has a alpha channel creating transparrency wich allows the user to place it on top of the original GoPro film. Use a video editing softare to add the gauages on top of the original video.
+
+# "Example":
+![example](https://github.com/Nokaah-Noktar/GoPro-Overlay/assets/89448975/17e4b91c-6821-4c25-bdfa-7b81e4b49717)
+
+
+# To-Do:
+* Fix velocity gauage
+  * Has a offset depending on max-speed
+* Altitude graph should be based on distance
+  * Currently based on time
+* GPS data is a bit boring
