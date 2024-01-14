@@ -10,12 +10,12 @@ GoPro overlay uses data from ["Telemetry Extractor for GoPro (Lite)"](https://go
 
 Requires:
 * Processing 4
-* ~~ffmpeg~~ Now included with source!
+* ffmpeg
 * MS Windows
 
 # Usage (Code):
 Download the source code. Open it in [Processing 4](https://processing.org/download) and export the application through (File -> export application). You may have to add the library "controlP5" to processing 4 through (Sketch -> import library -> add library).
-The program uses FFMPEG to create the gauges: Place the "ffmpeg" folder together with the executable after exporting from processing.
+The program uses FFMPEG to create the gauges: Please [download the full version of ffmpeg](https://www.gyan.dev/ffmpeg/builds/#release-builds), extract and rename fhe folder to "ffmpeg" and place the ffmpeg folder together with the executable file after exporting from processing.
 
 # Usage (Telemetry Extractor):
 Extract telemetry data using ["Telemetry Extractor for GoPro (Lite)"](https://goprotelemetryextractor.com/free/).
