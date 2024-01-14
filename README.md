@@ -10,12 +10,12 @@ GoPro overlay uses data from ["Telemetry Extractor for GoPro (Lite)"](https://go
 
 Requires:
 * Processing 4
-* FFMPEG
+* ~~ffmpeg~~ Now included with source!
 * MS Windows
 
 # Usage (Code):
 Download the source code. Open it in [Processing 4](https://processing.org/download) and export the application through (File -> export application). You may have to add the library "controlP5" to processing 4 through (Sketch -> import library -> add library).
-The program uses FFMPEG to create the gauges, and can be downloaded from [ffmpeg.org](https://ffmpeg.org/download.html).
+The program uses FFMPEG to create the gauges: Place the "ffmpeg" folder together with the executable after exporting from processing.
 
 # Usage (Telemetry Extractor):
 Extract telemetry data using ["Telemetry Extractor for GoPro (Lite)"](https://goprotelemetryextractor.com/free/).
@@ -44,8 +44,11 @@ Each gauge consists of a .mov file. The file has an alpha channel creating trans
 ![example](https://github.com/Nokaah-Noktar/GoPro-Overlay/assets/89448975/17e4b91c-6821-4c25-bdfa-7b81e4b49717)
 
 # To-Do:
-* Fix velocity gauge
-  * Has an offset depending on max-speed
+* ~~Fix velocity gauge~~
+  * ~~Has an offset depending on max-speed~~
 * Altitude graph should be based on distance
   * Currently based on time
 * GPS data is a bit boring
+* Linux / MAC?
+  * Currently using command promt and batch files to run ffmpgeg...
+  * Processing 4 can nativly export to linux and linux raspberry
