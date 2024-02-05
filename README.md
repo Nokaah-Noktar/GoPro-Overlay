@@ -66,3 +66,4 @@ The program uses FFMPEG to create the gauges: Please [download the full version 
 * Linux / MAC?
   * Currently using command promt and batch files to run ffmpgeg...
   * Processing 4 can nativly export to linux and linux raspberry
+* Sign the exe-file
