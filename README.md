@@ -29,9 +29,9 @@ Extract telemetry data using ["Telemetry Extractor for GoPro (Lite)"](https://go
 
 # Usage (Program):
 * Run Overlay_#_#_#.exe
-* Import data downloaded from "Telemetry Extractor".
+* Import data downloaded from "Telemetry Extractor"
 * Select output folder where the gauges will be stored
-* Set the framerate based on the video framerate <ins>(Required by the Attitude indicator based on gyro-data)</ins>
+* Set the framerate based on the video framerate
 * Optionally it is possible to select/deselect some gauges
 * Start render
 
